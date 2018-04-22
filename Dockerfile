@@ -60,5 +60,6 @@ RUN set -e -x; \
             sqlite \
             aria2 \
             libgnutls-dev \
+            iptables \
 && rm -rf /var/lib/apt/lists/* \
 && rm -rf /var/cache/oracle-jdk8-installer
